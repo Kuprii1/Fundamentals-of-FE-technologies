@@ -6,6 +6,7 @@
     <meta name="keywords" content="Про мене, Хоббі, Освіта">
     <meta name="description" content="сайт для лабораторної роботи з предмету Основи Front-end розробки">
     <title>Купрій М. О. ІК-23</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h2>Купрій Марина Олексіївна</h2>
@@ -30,7 +31,17 @@
         захисту південних рубежів Київської Русі. Лубни є одним із центрів Лівобережної України та відігравали значну 
         роль у козацькі часи. Місто згадується в історичних хроніках у зв'язку з важливими подіями, такими як 
         Національно-визвольна війна під проводом Богдана Хмельницького. </p>
-    <a href="https://lubnyrada.gov.ua/misto/istorychna-dovidka"><img src="town.jpg" alt="фото міста Лубни" href=""></a>
-    <p>Клікнувши на фото - ви можете перейти на офіційний сайт міста Лубни</p>
+    <div id="imageContainer">
+        <img id="lubnyImage" src="town.jpg" alt="фото міста Лубни"/>
+      </div>
+
+      <div>
+        <button id="increaseSizeBtn">Збільшити</button>
+        <button id="decreaseSizeBtn">Зменшити</button>
+        <button id="removeImageBtn">Видалити зображення</button>
+        <button id="addImageBtn">Додати зображення</button>
+      </div>
+
+    <script src="script.js"></script>
     </body>
 </html>
